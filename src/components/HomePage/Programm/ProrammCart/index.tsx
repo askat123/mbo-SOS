@@ -18,7 +18,7 @@ const ProgrammCart: React.FC<IProductCart> = ({ el }) => {
               <img src={el.image} alt="" />
               <h1>{el.title}</h1>
               <p>{el.description}</p>
-              <Link to={"/"}>
+              <Link to={"/podrobnee"}>
                 <button>Подробнее</button>
               </Link>
             </div>

@@ -8,6 +8,7 @@ import AboutFound from "./components/AboutFound";
 import HomePage from "./components/HomePage";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Podrobnee from "./components/podrobnee";
 
 AOS.init();
 
@@ -21,6 +22,7 @@ function App() {
           <Route path={"/gallery"} element={<Gallery />} />
           <Route path={"/requisites"} element={<Requisites />} />
           <Route path={"/aboutFound"} element={<AboutFound />} />
+          <Route path={"/podrobnee"} element={<Podrobnee />} />
         </Routes>
       </div>
       <Footer />

@@ -3,8 +3,6 @@
   padding: 100px 0;
 
   svg {
-
-
     path {
       .first-path {
         stroke: black;
@@ -28,7 +26,6 @@
         fill: lightblue;
       }
     }
-
   }
 
   .kg {
@@ -38,7 +35,6 @@
     left: 0;
     right: 0;
     z-index: -1;
-
   }
 
   .home {
@@ -51,14 +47,14 @@
       height: 20px;
       flex-shrink: 0;
       border-radius: 100px;
-      background: #FF7C3B;
+      background: #ff7c3b;
     }
 
     &__text {
       padding-top: 100px;
 
       h1 {
-        color: #FF7C3B;
+        color: #ff7c3b;
         font-family: Montserrat;
         font-size: 64px;
         font-style: normal;
@@ -72,6 +68,7 @@
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
+        padding: 30px 0;
       }
 
       &-btn {
@@ -79,7 +76,7 @@
         gap: 20px;
 
         a {
-          color: #FFF;
+          color: #fff;
           font-family: Montserrat;
           font-size: 24px;
           font-style: normal;
@@ -87,12 +84,12 @@
           line-height: normal;
           letter-spacing: 1px;
           border-radius: 30px;
-          background: #FF7C3B;
+          background: #ff7c3b;
           padding: 14px 40px;
         }
 
         .active {
-          color: #FF7C3B;
+          color: #ff7c3b;
           font-family: Montserrat;
           font-size: 24px;
           font-style: normal;
@@ -101,7 +98,7 @@
           letter-spacing: 1px;
           border-radius: 30px;
           padding: 14px 40px;
-          border: 2px solid #FF7C3B;
+          border: 2px solid #ff7c3b;
           background: none;
         }
       }
@@ -123,5 +120,4 @@
       }
     }
   }
-
 }

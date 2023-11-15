@@ -41,6 +41,10 @@
   }
 }
 @media screen and (max-width: 643px) {
+  #home .home__text p {
+    font-size: 15px;
+    padding: 50px 0;
+  }
   #home .home {
     padding-top: 0;
     flex-direction: column;

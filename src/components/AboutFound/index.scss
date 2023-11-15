@@ -30,7 +30,7 @@
     padding-bottom: 40px;
 
     h4 {
-      color: #FF7C3B;
+      color: #ff7c3b;
       font-family: Open Sans;
       font-size: 20px;
       font-style: normal;
@@ -53,18 +53,19 @@
   width: 100%;
   display: block;
   z-index: -1;
-  background-image: url('../../img/aboutfound.png');
+  background-image: url("../../img/aboutfound.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
 
-  img {}
+  img {
+  }
 
   .aboutFound {
     padding-top: 250px;
 
     h1 {
-      color: #FFF;
+      color: #fff;
       text-align: center;
       font-family: Montserrat;
       font-size: 64px;
@@ -74,7 +75,7 @@
     }
 
     h2 {
-      color: #FF7C3B;
+      color: #ff7c3b;
       font-family: Montserrat;
       font-size: 64px;
       font-style: normal;
@@ -84,6 +85,46 @@
       text-align: center;
     }
 
-    p {}
+    p {
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #aboutFound .aboutFound h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #aboutFound .aboutFound h2 {
+    color: #ff7c3b;
+    font-family: Montserrat;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #aboutFound .aboutFound h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .wrapper img {
+    width: 100%;
+    object-fit: contain;
+    height: 650px;
   }
 }

@@ -1,5 +1,5 @@
 #fond {
-  background: url("../../../img/image\ 12.png"), lightgray 50% / cover no-repeat;
+  background: url("../../../img/image\ 12.png"), lightgray 50% center/cover;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    padding: 150px 0;
     h1 {
       color: #ff7c3b;
       font-family: Montserrat;

@@ -1,5 +1,4 @@
 #gallery {
-
   .gallery {
     position: relative;
 
@@ -11,7 +10,8 @@
       padding-top: 180px;
     }
 
-    &__text {}
+    &__text {
+    }
 
     &__img {
       position: absolute;
@@ -30,7 +30,7 @@
         line-height: normal;
 
         span {
-          color: #FF7C3B;
+          color: #ff7c3b;
           font-family: Montserrat;
           font-size: 80px;
           font-style: normal;
@@ -59,7 +59,6 @@
         }
       }
     }
-
   }
 }
 
@@ -69,7 +68,7 @@
   .title {
     h1 {
       text-align: center;
-      color: #FF7C3B;
+      color: #ff7c3b;
       font-family: Montserrat;
       font-size: 48px;
       font-style: normal;
@@ -85,8 +84,70 @@
         max-width: 600px;
         object-fit: cover;
       }
-
     }
+  }
+}
 
+@media screen and (max-width: 1100px) {
+  #title .title__img img {
+    max-width: 45%;
+    object-fit: cover;
+  }
+  #gallery .gallery__img-img .gl3 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 25%;
+  }
+  #gallery .gallery__img-img .gl2 {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    width: 25%;
+  }
+  #gallery .gallery__img-img .gl1 {
+    position: absolute;
+    top: 41%;
+    right: 67%;
+    width: 30%;
+  }
+  #gallery .gallery__img h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 50px 0;
+  }
+  #gallery .gallery__img h1 span {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 499px) {
+  #gallery .gallery__img h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 0;
+  }
+  #gallery .gallery__img h1 span {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 0;
   }
 }

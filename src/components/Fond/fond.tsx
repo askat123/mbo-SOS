@@ -7,6 +7,7 @@ import { AiOutlineWhatsApp, AiOutlineInstagram } from "react-icons/ai";
 import "./fond.scss";
 import { LiaTelegramPlane } from "react-icons/lia";
 import { BsWhatsapp } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Fondom = () => {
   return (
@@ -20,14 +21,6 @@ const Fondom = () => {
                 <img src={os2} alt="" />
                 <h2>Эрмек Евгеньевич</h2>
                 <p>Основатель фонда</p>
-                <div className="wifi">
-                  <h3>
-                    <AiOutlineWhatsApp />
-                  </h3>
-                  <h3>
-                    <AiOutlineInstagram />
-                  </h3>
-                </div>
               </div>
               <div className="fondom-block">
                 <img src={ermek} alt="" />
@@ -36,12 +29,26 @@ const Fondom = () => {
                   Руководитель отдела по реализации <br /> cоц.проектов
                 </p>
                 <div className="wifi">
-                  <h3>
+                  <Link
+                    style={{
+                      color: "black",
+                      fontSize: "25px",
+                    }}
+                    to={
+                      "https://api.whatsapp.com/send/?phone=996703484846&text&type=phone_number&app_absent=0"
+                    }
+                  >
                     <AiOutlineWhatsApp />
-                  </h3>
-                  <h3>
+                  </Link>
+                  <Link
+                    style={{
+                      color: "black",
+                      fontSize: "25px",
+                    }}
+                    to={"https://www.instagram.com/volonter.kg/"}
+                  >
                     <AiOutlineInstagram />
-                  </h3>
+                  </Link>
                 </div>
               </div>
               <div className="fondom-block">
@@ -51,27 +58,11 @@ const Fondom = () => {
                   Заместитель Руководителя
                   <br /> Фонда
                 </p>
-                <div className="wifi">
-                  <h3>
-                    <AiOutlineWhatsApp />
-                  </h3>
-                  <h3>
-                    <AiOutlineInstagram />
-                  </h3>
-                </div>
               </div>
               <div className="fondom-block">
                 <img src={os4} alt="" />
                 <h2>Усенов Кубаныч</h2>
                 <p>Соучредитель фонда</p>
-                <div className="wifi">
-                  <h3>
-                    <AiOutlineWhatsApp />
-                  </h3>
-                  <h3>
-                    <AiOutlineInstagram />
-                  </h3>
-                </div>
               </div>
             </div>
           </div>
