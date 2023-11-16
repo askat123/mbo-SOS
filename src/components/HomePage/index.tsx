@@ -6,6 +6,7 @@ import Help from "./Help";
 import Home from "./Home";
 import Programm from "./Programm";
 import "../HomePage/";
+import Partners from "./partners";
 const HomePage = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const HomePage = () => {
       <AboutUs />
       <Help />
       <Fondom />
+      <Partners />
     </div>
   );
 };

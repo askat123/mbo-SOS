@@ -55,7 +55,6 @@
 
       h1 {
         color: #ff7c3b;
-        font-family: Montserrat;
         font-size: 64px;
         font-style: normal;
         font-weight: 700;
@@ -64,7 +63,6 @@
 
       p {
         color: #000;
-        font-family: Montserrat;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -74,10 +72,11 @@
       &-btn {
         display: flex;
         gap: 20px;
+        button {
+        }
 
         a {
           color: #fff;
-          font-family: Montserrat;
           font-size: 24px;
           font-style: normal;
           font-weight: 500;
@@ -86,11 +85,16 @@
           border-radius: 30px;
           background: #ff7c3b;
           padding: 14px 40px;
+          transition: 0.4s;
+          &:hover {
+            background: #fff;
+            border: 2px solid #ff7c3b;
+            color: #ff7c3b;
+          }
         }
 
         .active {
           color: #ff7c3b;
-          font-family: Montserrat;
           font-size: 24px;
           font-style: normal;
           font-weight: 500;

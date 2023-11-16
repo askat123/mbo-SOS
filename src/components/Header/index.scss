@@ -48,7 +48,6 @@
 
       a {
         color: #fff;
-        font-family: Montserrat;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -66,21 +65,25 @@
       gap: 10px;
     }
     &__menu {
+      margin-top: 10px;
       position: absolute;
       right: 30px;
       top: 84px;
       background-color: #00000098;
-      width: 50%;
+      width: 90%;
       height: 300px;
       padding: 0;
       text-align: center;
-      font-size: 27px;
+      font-size: 26px;
       font-weight: 500;
       line-height: 50px;
       border-radius: 20px;
       a {
         color: #fff;
         font-family: Montserrat, sans-serif;
+        &:first-child {
+          margin-top: 25px;
+        }
       }
     }
   }
@@ -105,7 +108,7 @@
 }
 @media screen and (max-width: 410px) {
   #header .header__menu {
-    width: 50%;
+    width: 80%;
     font-size: 20px;
   }
 }
