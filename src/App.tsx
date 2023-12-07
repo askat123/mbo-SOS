@@ -9,6 +9,7 @@ import HomePage from "./components/HomePage";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Podrobnee from "./components/podrobnee";
+import Otchet from "./components/Otchet";
 
 AOS.init();
 
@@ -23,6 +24,7 @@ function App() {
           <Route path={"/requisites"} element={<Requisites />} />
           <Route path={"/aboutFound"} element={<AboutFound />} />
           <Route path={"/podrobnee"} element={<Podrobnee />} />
+          <Route path={"/otchet"} element={<Otchet />} />
         </Routes>
       </div>
       <Footer />

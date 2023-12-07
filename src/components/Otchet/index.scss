@@ -1,0 +1,12 @@
+#otchet {
+  &__group {
+    &__block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}

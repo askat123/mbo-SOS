@@ -32,10 +32,7 @@ const AboutUs = () => {
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
-              <p>
-                В Бишкеке состоялось открытие волонтерского стационара «Дем» с
-                участием Айгуль Жапаровой Подробнее
-              </p>
+              <p>Помощь в реабилитации после операций</p>
             </div>
             <div className="aboutUs__img-img">
               <div className="img">
@@ -43,10 +40,7 @@ const AboutUs = () => {
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
-              <p>
-                В Бишкеке состоялось открытие волонтерского стационара «Дем» с
-                участием Айгуль Жапаровой Подробнее
-              </p>
+              <p>Помощь в реабилитации после операций</p>
             </div>
           </div>
           <div className="aboutUs__img">
@@ -56,10 +50,7 @@ const AboutUs = () => {
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
-              <p>
-                В Бишкеке состоялось открытие волонтерского стационара «Дем» с
-                участием Айгуль Жапаровой Подробнее
-              </p>
+              <p>Помощь в реабилитации после операций</p>
             </div>
             <div className="aboutUs__img-img">
               <div className="img">
@@ -67,10 +58,7 @@ const AboutUs = () => {
               </div>
               <div className="color"></div>
               <span>21.09.2023</span>
-              <p>
-                В Бишкеке состоялось открытие волонтерского стационара «Дем» с
-                участием Айгуль Жапаровой Подробнее
-              </p>
+              <p>Помощь в реабилитации после операций</p>
             </div>
             <div className="aboutUs__img-img">
               <div className="img">

@@ -151,3 +151,13 @@
     padding: 10px 0;
   }
 }
+
+.group {
+  a {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 100px;
+  }
+}

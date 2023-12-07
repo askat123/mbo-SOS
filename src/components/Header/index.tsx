@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../../icons/logo.svg";
+import newlogo from "../../img/newLogo.png";
 import insta from "../../icons/insta.svg";
 import tiktok from "../../icons/tiktok.svg";
 import whatsapp from "../../icons/whatsapp.svg";
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="header">
           <div className="header__logo">
             <NavLink to={"/"}>
-              <img src={logo} alt="" />
+              <img style={{ width: "15%" }} src={newlogo} alt="" />
             </NavLink>
           </div>
           <nav className="header__nav">

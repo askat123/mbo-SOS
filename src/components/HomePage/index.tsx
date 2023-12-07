@@ -4,7 +4,6 @@ import AboutUs from "./AboutUs";
 import Fond from "./Fond";
 import Help from "./Help";
 import Home from "./Home";
-import Programm from "./Programm";
 import "../HomePage/";
 import Partners from "./partners";
 const HomePage = () => {
@@ -12,7 +11,6 @@ const HomePage = () => {
     <div>
       <Home />
       <Fond />
-      <Programm />
       <Puzl />
       <AboutUs />
       <Help />
