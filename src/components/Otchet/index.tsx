@@ -363,6 +363,9 @@ const Otchet = () => {
             padding: "50px 0 0 0",
           }}
         >
+          <center>
+            <h1>Благодарственные письма</h1>
+          </center>
           <img style={{ width: "30%" }} src={pismo} alt="" />
           <img style={{ width: "30%" }} src={pismo1} alt="" />
           <img style={{ width: "30%" }} src={pismo3} alt="" />

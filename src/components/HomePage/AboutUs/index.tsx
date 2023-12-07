@@ -43,35 +43,6 @@ const AboutUs = () => {
               <p>Помощь в реабилитации после операций</p>
             </div>
           </div>
-          <div className="aboutUs__img">
-            <div className="aboutUs__img-img">
-              <div className="img">
-                <img src={about2} alt="" />
-              </div>
-              <div className="color"></div>
-              <span>21.09.2023</span>
-              <p>Помощь в реабилитации после операций</p>
-            </div>
-            <div className="aboutUs__img-img">
-              <div className="img">
-                <img src={about3} alt="" />
-              </div>
-              <div className="color"></div>
-              <span>21.09.2023</span>
-              <p>Помощь в реабилитации после операций</p>
-            </div>
-            <div className="aboutUs__img-img">
-              <div className="img">
-                <img src={about} alt="" />
-              </div>
-              <div className="color"></div>
-              <span>21.09.2023</span>
-              <p>
-                В Бишкеке состоялось открытие волонтерского стационара «Дем» с
-                участием Айгуль Жапаровой Подробнее
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
