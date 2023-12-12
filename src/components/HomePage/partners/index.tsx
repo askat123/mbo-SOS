@@ -6,6 +6,7 @@ import partner4 from "../../../img/partner4.png";
 import partner5 from "../../../img/partner5.png";
 import partner6 from "../../../img/partner6.png";
 import partner7 from "../../../img/partner7.jpg";
+import partner8 from "../../../img/partner8.jpg";
 
 const Partners = () => {
   return (
@@ -57,6 +58,11 @@ const Partners = () => {
               <img
                 style={{ width: "20%", padding: "20px 0" }}
                 src={partner7}
+                alt=""
+              />
+              <img
+                style={{ width: "20%", padding: "20px 0" }}
+                src={partner8}
                 alt=""
               />
             </div>
