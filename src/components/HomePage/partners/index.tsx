@@ -6,7 +6,7 @@ import partner4 from "../../../img/partner4.png";
 import partner5 from "../../../img/partner5.png";
 import partner6 from "../../../img/partner6.png";
 import partner7 from "../../../img/partner7.jpg";
-import partner8 from "../../../img/partner8.jpg";
+import partner8 from "../../../img/partner8.png";
 import partner9 from "../../../img/partner9.jpg";
 
 const Partners = () => {
